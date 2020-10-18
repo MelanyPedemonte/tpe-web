@@ -1,0 +1,284 @@
+
+header{
+    align-items: center;
+}
+
+.ocultarFila{
+    visibility: collapse;
+}
+
+.logoImg{
+    width: 150px;
+    padding: 20px;
+    margin: auto;
+    display: block;
+}
+
+.menu{
+    padding: 10px;
+    background-color: rgb(235, 235, 235);
+}
+
+.btn_menu a{
+    text-decoration: none;
+    margin: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+nav{
+    clear: both;
+}
+
+ul.navegador{
+    display: none;
+    flex-direction: column;
+}
+
+ul.navegador.show{
+    display: flex;
+}
+
+ul.navegador li{
+    border: solid 1px color white;
+    display: inline-block;
+    color: black;
+    padding: 10px;
+}
+
+ul.navegador li a{
+    text-decoration: none;
+    color: black;
+}
+
+body{
+    display: block;
+}
+
+.slider{
+    max-width: 98%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.slider img{
+    width: 100%;
+    height: 100%;
+}
+
+.textoPresentacion{
+    padding: 10px;
+    text-align: center;
+}
+
+.textoPresentacion h1{
+    font-weight: normal;
+    font-style: italic;
+}
+
+.botonesImagen a img {
+    width:100%;
+    height: 100%;
+    padding-bottom: 10px;
+}
+  
+footer{
+    background-color: rgb(235, 235, 235);
+    text-align: center;
+    padding: 20px;
+    font-size: 21px;
+    color: black;
+    margin: 2px;
+}
+
+.link{
+    text-decoration: none;
+    color: black;
+}
+
+.precios{
+    text-align: center;
+}
+
+.tablaR{
+    max-width: 100%;
+    overflow-x: auto;
+}
+
+.tableS{
+    border-collapse: collapse;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.tableS thead{
+    background-color: rgb(235, 235, 235);
+}
+
+.tableS td, .pys th{
+    padding: 20px;
+    border:rgb(235, 235, 235) 2px solid;
+}
+
+.formS{
+    padding: 5px;
+    margin: 5px;
+}
+
+.formS input{
+    margin: 5px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.botonesTabla{
+    display: inline-block;
+}
+
+.materiales{
+    margin: 50px;
+}
+
+.materiales ul li{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.formulario{
+    text-align: center;
+}
+
+.formulario form{
+    display: inline-block;
+    margin-right: auto;
+    margin-left: auto;
+    float: none;
+    margin-bottom: 20px;
+}
+
+.formulario form ul li{
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+    display: list-item;
+    padding: 5px;
+}
+
+.formulario form ul li input{
+    display: block;
+    border: black 1px solid;
+    color: black;
+    background-color: rgb(235, 235, 235);
+    border-radius: 2px;
+}
+
+.formulario form ul li button{
+    margin: 5px;
+    float: right;
+}
+
+.datos{
+    text-align: center;
+}
+
+.map{
+    display: block;
+    margin: 10px;
+}
+
+.map iframe{
+    height: 100%;
+    width: 100%;
+}
+
+h1{
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2{
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h3{
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+@media only screen and (min-width: 600px){
+    .menu{
+        height: 40px;
+    }
+
+    .logoImg{
+        width: 200px;
+    }
+
+    .link:hover{
+        color: rgb(119, 116, 116);
+    }
+
+    .btn_menu{
+        display: none;
+    }
+
+    .nonav ul.navegador{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .slider{
+        max-width: 70%;
+    }
+
+    .textoPresentacion{
+        margin: 30px;
+    }
+
+    .botonesImagen{
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .botonesImagen{
+        margin-bottom: 20px;
+    }
+
+    .botonesImagen a{
+        width: 560px;
+        height: 510px;
+        margin: 10px;
+    }
+
+    .formS input{
+        display: inline-block;
+    }
+
+    .botonesTabla button{
+        margin: 20px;
+    }
+
+    .contContacto{
+        display: flex;
+        justify-content: space-evenly;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+  

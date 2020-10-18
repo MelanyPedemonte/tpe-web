@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Servicios</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/22bea3a94b.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <div class= "menu">
+            <div class="btn_menu"><i class="fas fa-bars"> MENÚ</i></div>
+            <nav class="nonav">
+                <ul class="navegador">
+                    <li><a class="link" href="index.html">HOME</a> </li>
+                    <li><a class="link" href="servicios.html">SERVICIOS</a> </li>
+                    <li><a class="link" href="contacto.html">CONTACTO</a> </li>
+                </ul>
+            </nav>
+        </div>
+        <div class="encabezado">
+            <img class="logoImg" src="images/logo.jpg" alt="logo de Roma belleza de uñas" />
+        </div>
+    </header> 
+    <section >
+        <div class="precios">
+                <h2>Precios y Servicios</h2>
+                <div class="tablaR">
+                    <table class=tableS>
+                        <thead>
+                            <th>Servicio</th>
+                            <th>Esmaltado Liso</th>
+                            <th>Esmaltado Nail Art</th>
+                            <th>Tecnica 1S</th>
+                            <th>Retiro de Servicio</th>
+                        </thead>
+                        <tbody class="tablaCambiable">
+        
+                        </tbody>
+                    </table>
+                </div>
+                <form class="formS">
+                        <input class = "servicio" type = "text" placeholder="Servicio" value = "">
+                        <input class = "esmaltadoLiso" type="text" placeholder="Esmaltado Liso" value="">
+                        <input class = "esmaltadoNailArt" type="text" placeholder="Esmaltado Nail Art" value="">
+                        <input class = "tecnica1S" type = "text" placeholder="Tecnica 1S" value = "">
+                        <input class = "retiro" type = "text" placeholder="Retiro de Servicio" value = "">
+                        <div class="botonesTabla">
+                            <button type="button" id="btn-items" class="enviarDatos">Cargar items</button>
+                            <button type="button" id="btn-items" class="enviar3Datos">Cargar 3 items</button>
+                            <input type="text" name="filtro" class="filtro" placeholder="Búsqueda">
+                        </div>
+                </form>
+        </div>
+        <div class="materiales">
+                <h3>Opciones de materiales para Uñas esculpidas/Kapping:</h3>
+                <ul>
+                    <li>Gel.</li>
+                    <li>Polygel.</li>
+                    <li>Acrilico.</li>
+                </ul>
+        </div>
+        <div class="formulario">
+                <h2>Solicitá tu turno!</h2>
+                <form name="myForm" action="validar.php" onsubmit="return validar();" method="POST">
+                    <ul class="formdatos">
+                        <li>Nombre: <input type="text" id="nombre" placeholder="nombre" name="nombre" value="" > </li>
+                        <li>Celular: <input type="number" id="celular" placeholder="celular" name="celular" value="" ></li>
+                        <li>Servicio: <input type="text" id="servicio" placeholder="servicio" name="servicio" value="" ></li>
+                        <li>Ingrese el numero 4: <input type="text"onsubmit="return captcha();" id= "captcha" placeholder="captcha" name= "captcha" value=""></li>
+                        <li><button type="submit">Enviar</button></li>
+                    </ul>
+                </form>
+        </div>
+    </seccion>
+    <footer>
+        <span>FOLLOW US!</span>
+        <a class="link" href="https://www.instagram.com/romabellezadeunas" target="_blank"><i class="fab fa-instagram"></i></a>
+    </footer>
+    <script type="text/javascript" src="js/menu.js"> </script>
+    <script type="text/javascript" src="js/formulario.js"> </script>
+    <script type="text/javascript" src="js/add.js"> </script>
+</body>
+</html>
